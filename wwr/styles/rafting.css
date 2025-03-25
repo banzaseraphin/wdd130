@@ -1,0 +1,22 @@
+
+h1 {
+    font-family: "Roboto", sans-serif; color: #392d2d;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #c1432d;
+    font-variation-settings:
+      "wdth" 100;
+    
+  }
+
+
+
+  p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  
