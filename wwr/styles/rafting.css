@@ -19,4 +19,38 @@ h1 {
     font-style: normal;
   }
 
-  
+  style
+    body{
+        background-color: #b9babf;
+    }
+    footer {
+        float: right;
+    }
+    div {
+        float: none;
+        margin: 0px 100px;
+    }
+    h3 {
+        float: none;
+        margin: 0px 100px;
+        clip-path: circle(50% at center);
+        width: 200px;
+        height: 180px;
+        
+    }
+    foot {
+        float: none;
+        margin: 0px 100px;
+        float: inherit;
+    }
+    footer {
+        color: #6f0404;
+    }
+    nav {
+        float: right;
+    }
+
+
+
+
+
