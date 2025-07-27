@@ -21,22 +21,26 @@ h1, h2, h3 {
 
 /* === Header Navigation === */
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: #cfcfb4;
-    padding: 1em 0;
+    padding: 10px 20px;
     border-bottom: 2px solid #264969;
 }
 
+/* Logo image style */
 .logo img {
-    float: left;
-    font-size: 1em;
-    font-weight: bold;
+  height: 60px;          /* Resize logo to fit header */
+  width: auto;           /* Keep natural aspect ratio */
+  display: block;        /* Removes bottom spacing */
 }
+
+/* Container for logo (e.g., <a class="logo">) */
 .logo {
-    height: 10px;
-    width: auto;
-    display: block;
-    border-radius: 10;
+  display: inline-block; /* Better for header layout */
+  border-radius: 10px;   /* Rounded corners */
 }
+
 
 
 nav ul {
