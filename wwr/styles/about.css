@@ -118,11 +118,53 @@ nav a {
 }
 
 /* === Safety Section === */
+
 .safety {
-    background-color: #cfcfb4;
-    padding: 2em 1em;
-    text-align: center;
+  display: flex;
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  text-align: center;          /* Center text inside */
+  height: 50vh;               /* Full screen height */
+  background-color: #f0f8ff;   /* Light background */
+  padding: 2rem;
 }
+
+/* Container for the content */
+.safety .container {
+  max-width: 600px;
+}
+
+/* Headline */
+.safety h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Paragraph */
+.safety p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
 
 /* === Social Section === */
 .social {
