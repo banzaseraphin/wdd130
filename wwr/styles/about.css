@@ -138,21 +138,17 @@ nav a {
 .safety h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #333;
 }
 
 /* Paragraph */
 .safety p {
   font-size: 1.1rem;
-  color: #555;
   margin-bottom: 1.5rem;
 }
 
 /* Button styling */
 .btn {
   display: inline-block;
-  background-color: #007BFF;
-  color: white;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
