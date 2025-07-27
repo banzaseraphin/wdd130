@@ -32,6 +32,11 @@ header {
     font-weight: bold;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
 nav ul {
     list-style: none;
     display: flex;
