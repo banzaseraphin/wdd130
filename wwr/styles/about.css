@@ -1,3 +1,13 @@
+:root {
+  --primary-color: #264969;
+  --secondary-color: #505033;
+  --background-color: #f5f5f5;
+}
+
+body {
+  color: var(--primary-color);
+}
+
 /* === Base Styles === */
 body{
     font-family: 'Roboto', sans-serif;
@@ -9,9 +19,9 @@ body{
 }
 
 h1, h2, h3 {
-    font-family: 'Georgia', serif;
-    color: #505033;
+  font-family: 'Merriweather', serif;
 }
+
 
 .container {
     width: 90%;
@@ -58,17 +68,33 @@ nav a {
     font-weight: bold;
 }
 
-/* === Hero section === */
-.hero {
-    background-color: #84cde4;
-    text-align: center;
-    padding: 4em 1em;
+a {
+  text-decoration: none;
 }
 
-.hero h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+
+/* === Hero section === */
+.hero {
+  position: relative;
 }
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1, .hero p {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(186, 189, 247);
+  font-size: 40px;
+  font-family:'Merriweather', sans-serif;
+  text-align: center;
+
+}
+
 
 .btn {
     display: inline-block;
@@ -171,6 +197,12 @@ nav a {
   background-color: #0056b3;
 }
 
+.float-left {
+  float: left;
+  margin-right: 15px;
+  width: 200px;
+  border-radius: 5px;
+}
 
 
 /* === Social Section === */
@@ -180,11 +212,15 @@ nav a {
     text-align: center;
 }
 
-
+main{
+    text-align: center;
+}
 .social-icons img {
     width: 40px;
     margin: 0 10px;
+    text-decoration: none;
 }
+
 
 /* === Footer === */
 footer {
