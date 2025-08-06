@@ -31,18 +31,28 @@ h1, h2, h3 {
 
 /* === Header Navigation === */
 header {
-    display: flex;
-    justify-content: space-between;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
     background-color: #cfcfb4;
     padding: 10px 20px;
-    border-bottom: 2px solid #264969;
+    border-bottom: 3px solid #264969;
+    
+}
+.header-title {
+  font-size: 4rem;
+  color: #264969;
+  margin-left: 140px;
+  margin-top: 20px;
+  /* Center the title */
 }
 
 /* Logo image style */
 .logo img {
   height: 60px;          /* Resize logo to fit header */
   width: auto;           /* Keep natural aspect ratio */
-  display: block;        /* Removes bottom spacing */
+  margin: 0 0.25rem 0 1rem;        /* Removes bottom spacing */
 }
 
 /* Container for logo (e.g., <a class="logo">) */
@@ -57,15 +67,41 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    gap: 1em;
-    margin: 0;
-    padding: 0;
+    gap: 2em;
+    margin: 20px;
+    padding: 90px 0;
 }
 
 nav a {
     text-decoration: none;
     color: #264969;
     font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #264969;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #003366;
+  background-color: #f0f0f0;
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+
+}
+
+.navbar a:hover {
+  background-color: #003366;
+  color: #fff;
 }
 
 a {
@@ -81,6 +117,7 @@ a {
 .hero img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .hero h1, .hero p {
@@ -125,6 +162,7 @@ a {
     flex-wrap: wrap;
     gap: 2em;
     margin-top: 2em;
+    
 }
 
 .card {
@@ -209,7 +247,7 @@ a {
 .social {
     background-color: #f5f5f5;
     padding: 2em 1em;
-    text-align: center;
+    text-align: right;
 }
 
 main{
@@ -219,14 +257,28 @@ main{
     width: 40px;
     margin: 0 10px;
     text-decoration: none;
+    align-content: center;
+    border-radius: 50%;
 }
 
+.adventure img {
+    border-radius: 10px;
+}
 
+.history img {
+    border-radius: 10px;
+}
 /* === Footer === */
 footer {
     background-color: #264969;
     color: #ffffff;
-    text-align: center;
+    text-align: right;
     padding: 1.5em 0;
-    font-size: 0.9em;
+    font-size: 0.9em; 
+    justify-content: right;  
+    display: flex;
+    align-items: right;
+    height: 100px;
 }
+
+
