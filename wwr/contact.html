@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with White Water Rafting. Contact us for trip reservations, general inquiries, or suggestions.">
+    <meta name="author" content="Seraphin Banza Kiongo">
+    <title>Contact Us | White Water Rafting</title>
+    <link rel="stylesheet" href="./styles/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="./images/logo.webp" alt="White Water Rafting Logo" class="logo">
+        <h1 class="header-title">White Water Rafting</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- COMPANY INFO -->
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Kabwe katanda Road, Lubumbashi City </p>
+            <p><strong>Phone:</strong> +(243) 971 230 587</p>
+            <p><strong>Email:</strong> contact@whitewaterrafting.com</p>
+
+            <!-- Google Map -->
+            <iframe src="YOUR_GOOGLE_MAPS_EMBED_URL" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- TEAM -->
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <figure>
+                    <img src="../contactusimages/ilunga mpeshi.jpg" alt="Leonard Mpeshi - Lead Guide">
+                    <figcaption>Leonard Mpeshi — Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="../contactusimages/Miracle.jpg" alt="Miracle - Safety Coordinator">
+                    <figcaption>Miracle — Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="../contactusimages/banza kiongo.jpg" alt="Banza Kiongo - Reservations Manager">
+                    <figcaption>Banza Kiongo — Reservations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="post">
+                <!-- Name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Purpose -->
+                <p>Purpose of your message:</p>
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                <!-- Message -->
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <!-- Newsletter -->
+                <label>
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <!-- Submit -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section class="social-icons">
+            <div class="container">
+                <a href="#"><img src="images/facebook.jpg" alt="Follow us on Facebook"></a>
+                <a href="#"><img src="images/instagram.jpg" alt="Follow us on Instagram"></a>
+                <a href="#"><img src="images/twitter.png" alt="Follow us on Twitter"></a>
+            </div>
+            <p class="footer-text">&copy; 2025 White Water Rafting | Seraphin Banza Kiongo</p>
+            <p><a href="images/contact-wireframe.png">View Contact Us Wireframe</a></p>
+        </section>
+    </footer>
+</body>
+</html>
