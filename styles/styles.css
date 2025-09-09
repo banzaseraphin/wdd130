@@ -12,9 +12,17 @@ main {
     max-width: 840px;
 }
 
+main h1{
+    color: cadetblue;
+}
+
 main img{
     width: 150px;
     height: auto;
+    padding: 2px;
+    border: 1px solid rgba(10, 126, 189, 0.2);
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 main p {
     padding: 0;
