@@ -3,6 +3,14 @@ main {
     max-width: 840px;
 }
 
+main img{
+    width: 150px;
+    height: auto;
+}
+main p {
+    padding: 0;
+}
+
 /*aside section*/
 
 aside {
@@ -12,5 +20,18 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/*footer section*/
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
 }
