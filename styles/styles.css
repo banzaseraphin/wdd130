@@ -27,7 +27,7 @@ main h1{
 }
 
 main img{
-    width: 150px;
+    max-width: 100%;
     height: auto;
     padding: 2px;
     border: 1px solid rgba(10, 126, 189, 0.2);
@@ -41,7 +41,8 @@ main p {
 /*aside section*/
 
 aside {
-    width: 20rem;
+    width: 100%;
+    max-width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
