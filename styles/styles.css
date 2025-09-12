@@ -31,6 +31,10 @@ header nav{
 
 }
 
+nav:hover{
+    background-color: #e9b58b;
+}
+
 nav a{
     display: block;
     color: #fff;
