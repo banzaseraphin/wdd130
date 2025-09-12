@@ -66,15 +66,26 @@ main h1{
 }
 
 main img{
+    display: block;
     max-width: 100%;
     height: auto;
     padding: 2px;
     border: 1px solid rgba(10, 126, 189, 0.2);
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    transition: all 0.3s ease;
+}
+
+main img:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.50);
+    transition: all 0.3s ease;
 }
 main p {
     padding: 0;
+    margin: 10px 0;
+    line-height: 1.6;
 }
 
 /*aside section*/
