@@ -3,7 +3,19 @@ header {
     background-color: cadetblue;
     width: 100%;
     padding: 50px;
-  
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
 }
 
 header nav{
@@ -11,6 +23,11 @@ header nav{
     align-items: center;
     justify-content: space-between;
     margin: 0 250px;
+    background-color: #9a9595;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 
 }
 
