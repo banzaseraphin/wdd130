@@ -31,8 +31,22 @@ header nav{
 
 }
 
+nav a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #9a9595;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    background-color: cadetblue;
+    padding: 10px;
+}
 
-
+nav a:hover{
+    background-color: #640909;
+}
 
 /*main section*/
 main {
