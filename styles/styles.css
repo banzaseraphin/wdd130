@@ -47,6 +47,7 @@ nav a{
 nav a:hover{
     background-color: #ffffff;
     color: #e48b06;
+    border: 1px solid #e4a106;
 }
 
 /*main section*/
