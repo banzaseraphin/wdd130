@@ -11,6 +11,7 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent-color);
+    border-radius: 3px;
 }
 
 * {
@@ -51,6 +52,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 3px;
 }
 
 h1 {
@@ -67,4 +69,8 @@ h1 {
 .hero article img{
     float: right;
     width: 125px;
+}
+
+.logo{
+    border-radius: 100%;
 }
