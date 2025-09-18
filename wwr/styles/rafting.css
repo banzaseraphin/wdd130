@@ -41,6 +41,19 @@ nav, p, section, article {
     
 }
 
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
