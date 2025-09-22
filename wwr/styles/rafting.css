@@ -4,7 +4,7 @@
     --accent-color: #ffcc00;
     --background-color: #f4f4f4;
     --text-color: #333;
-    --body-font: Arial, sans-serif;
+    
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 body{
-    font-family: var(--body-font);
+    
     color: var(--accent1-color);
 }
 
@@ -30,7 +30,7 @@ header, main, footer {
 }
 
 h1, h2, h3 {
-    font-family: var(--heading-font);
+   
     color: var(--primary-color);
 }
 
