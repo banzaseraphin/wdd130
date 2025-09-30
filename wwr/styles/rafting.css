@@ -34,18 +34,40 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+p, section, article {
     margin: 16px;
     padding: 9px;
     
 }
+
 
 .nav-links {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 16px;
+    padding: 5px;
 }
+
+
+li a{
+    justify-content: center;
+    display: block;
+    margin-top: -121px;
+    border: 2px solid #b33ea5;
+    background-color: #a32f96;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+
+li a:hover{
+    border:0 solid #f4f4f4;
+    background-color: #ffcc00;
+    color: #f4f4f4;
+}
+
+
 
 .nav-links a {
     text-decoration: none;
