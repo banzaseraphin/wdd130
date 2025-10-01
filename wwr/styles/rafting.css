@@ -110,3 +110,37 @@ h1 {
     border-radius: 100%;
     
 }
+
+.history-image{
+    display: block;       /* makes the image a block element */
+    margin: 0 auto;       /* centers horizontally */
+    max-width: 100%;      /* ensures it doesn’t overflow container */
+}
+
+.history-image {
+    display: inline-block;       /* treat image as part of the text flow */
+    vertical-align: middle;      /* align image with text */
+    margin: 0 16px;              /* spacing left and right */
+}
+
+.history-image {
+    width: 200px;                /* adjust as needed */
+    height: auto;                /* maintain aspect ratio */
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.adventure{
+    display: grid;
+    grid-template-rows:  repeat(5, 1fr);
+    gap: 10px;
+}
+
+.adventure{
+    margin: 5px;
+}
+
