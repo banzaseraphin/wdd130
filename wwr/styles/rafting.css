@@ -29,6 +29,27 @@ header, main, footer {
     margin: 0 auto;
 }
 
+/*----------------------------*/
+.adventure-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  text-align: center;
+  font-family: var(--body-font);
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
+
+
 h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
