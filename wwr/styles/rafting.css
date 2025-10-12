@@ -292,3 +292,286 @@ body {
     background-color: #ccc;
 }
 
+
+
+/*home -------------------------*/
+
+/* ====== HOME PAGE STYLES ====== */
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+/* NEWSLETTER SECTION */
+.newsletter {
+    background-color: #e0f7fa;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+}
+
+.newsletter h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.newsletter p {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter input {
+    display: block;
+    width: 250px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.newsletter button:hover {
+    background-color: var(--primary-color);
+}
+
+/* CALL TO ACTION */
+.cta {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.cta h2 {
+    color: white;
+}
+
+.cta p {
+    color: #f8f8f8;
+    margin-bottom: 1rem;
+}
+
+.cta .btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta .btn:hover {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+/* GRID SECTION */
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.grid-section article  {
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+/*about gallery*/
+.mal {
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.client-image {
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+
+.mal {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.client-image  {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/*---------------*/
+
+.grid-section img  {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-section h3 {
+    color: var(--primary-color);
+    margin-top: 0.5rem;
+}
+
+
+/*trips ------------*/
+
+/* ====== TRIPS PAGE STYLES ====== */
+
+/* TRIPS PAGE MAIN CONTAINER */
+.trips-container {
+    width: 840px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* CALL TO ACTION (Contact) */
+.trips-cta {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+.trips-cta h2 {
+    margin-bottom: 0.5rem;
+}
+
+.trips-cta p {
+    color: #f8f8f8;
+    margin-bottom: 1rem;
+}
+
+.trips-cta .btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.trips-cta .btn:hover {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+/* TRIP DESCRIPTION CARDS */
+.trip-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    align-items: center;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.trip-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.trip-card p {
+    color: var(--text-color);
+}
+
+/* TRIPS TABLE */
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trips-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* RESPONSIVE GRID FOR SMALL SCREENS */
+@media (max-width: 768px) {
+    .trip-card {
+        grid-template-columns: 1fr;
+    }
+}
